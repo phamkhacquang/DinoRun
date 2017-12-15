@@ -1,0 +1,48 @@
+
+Stickman.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sprites/Face
+  rotate: true
+  xy: 285, 249
+  size: 165, 77
+  orig: 165, 77
+  offset: 0, 0
+  index: -1
+sprites/Foot
+  rotate: true
+  xy: 2, 2
+  size: 70, 176
+  orig: 70, 176
+  offset: 0, 0
+  index: -1
+sprites/Head
+  rotate: false
+  xy: 2, 108
+  size: 281, 400
+  orig: 281, 400
+  offset: 0, 0
+  index: -1
+sprites/Thick
+  rotate: false
+  xy: 285, 153
+  size: 75, 94
+  orig: 75, 94
+  offset: 0, 0
+  index: -1
+sprites/gethitface
+  rotate: false
+  xy: 285, 416
+  size: 159, 92
+  orig: 159, 92
+  offset: 0, 0
+  index: -1
+sprites/shadow
+  rotate: false
+  xy: 2, 74
+  size: 261, 32
+  orig: 261, 32
+  offset: 0, 0
+  index: -1

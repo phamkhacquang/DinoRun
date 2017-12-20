@@ -343,6 +343,7 @@ MonoBehaviour:
   tapButton: {fileID: 1130321961}
   tapButtonText: {fileID: 1164359873}
   scoreText: {fileID: 617953849}
+  highScore: 0
   score: 0
 --- !u!1 &575416858 stripped
 GameObject:
@@ -921,6 +922,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -1190,6 +1192,10 @@ Prefab:
         type: 2}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341826589111192, guid: 36f51bb4c7b19c845a82fa9fa029c13f, type: 2}
+      propertyPath: m_Name
+      value: Dino
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 36f51bb4c7b19c845a82fa9fa029c13f, type: 2}

@@ -6,6 +6,7 @@ public class UIManager : MonoBehaviour {
     public Button tapButton;
     public Text tapButtonText;
     public Text scoreText;
+    [HideInInspector]
     public int highScore = 0;
     private const string highScoreKey = "HighScore";
     [HideInInspector]
@@ -36,8 +37,7 @@ public class UIManager : MonoBehaviour {
     }
 
     public void TapButtonClick() {//Khi chữ Tap to start được nhấn vào
-        if (GameManager.isStarted) {
-            GameManager.isStarted = false;
+        if (GameManager.isStarted) {            
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);//Load lại từ đầu khi chết            
         } else {
             GameManager.isStarted = true;

@@ -9,7 +9,7 @@ public class PlayerHealth : MonoBehaviour {
             }
         }
         if (collision.gameObject.CompareTag("Enemy")) {
-            if (Mathf.Abs(transform.position.y - Player.State.startPosition.y) > 1f) {
+            if (Mathf.Abs(transform.position.y - Player.State.startPosition.y) > 0.5f) {
                 Player.State.DoubleJump();
             } else {
                 GameManager.isPlaying = false;
